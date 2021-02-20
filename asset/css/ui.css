@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth !important;
+}
+
+.btn-custom {
+  background-color: #032541;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #043258;
+  color: white;
+}
+
+.text-custom {
+  color: #032541;
+}
+
+.text-custom:hover {
+  color: #032541;
+}
+
+.bg-custom {
+  background-color: #032541;
+  color: white;
+}
+
+.swal-modal .swal-text {
+  text-align: center !important;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group .password-input {
+  padding-right: 45px !important;
+}
+
+.form-group .password-view {
+  position: absolute;
+  opacity: 20%;
+  top: 50%;
+  right: 6%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.form-group .password-view:hover {
+  opacity: 40%;
+  cursor: pointer;
+}
+
+nav {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(3, 37, 65, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(3, 37, 65, 0.2);
+  background-color: #032541;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav .navbar-container {
+  max-width: 1440px !important;
+}
+
+nav .navbar-container a {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+nav .navbar-container a:hover {
+  color: #ccae62 !important;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 50px;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #032541;
+  color: white;
+}
+
+footer .footer-body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer .footer-body .title {
+  border: 2px solid white;
+  padding: 6px 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer-body .title:hover {
+  color: #ccae62;
+  border: 2px solid #ccae62;
+}
+
+footer .footer-body ul {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+footer .footer-body ul li a {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer-body ul li a:hover {
+  color: #ccae62 !important;
+}
+
+footer .footer-body .footer-items {
+  padding: 5px 0;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer-body .footer-items:hover {
+  color: #ccae62;
+}
+
+footer .footer-body .follow-us {
+  border: 2px solid white;
+  padding: 6px 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 25px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer-body .follow-us:hover {
+  border: 2px solid #ccae62;
+}
+
+footer .footer-body .sosmed-icon {
+  font-size: 20px;
+}
+
+footer .footer-body .sosmed-icon a {
+  padding: 0 3px;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer .footer-body .sosmed-icon a:hover {
+  color: #ccae62;
+}
+
+footer .copy-right {
+  background-color: #011a2e;
+  letter-spacing: 1px;
+  font-size: 7px;
+  padding: 20px 0;
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    padding: 50px 20px;
+  }
+}
+/*# sourceMappingURL=ui.css.map */

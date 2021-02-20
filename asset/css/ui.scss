@@ -1,0 +1,179 @@
+// $main-color : #218c74;
+// $secondary-color :#23b194;
+// $third-color : #125849;
+$main-color : #032541;
+$secondary-color :#043258;
+$third-color :#011a2e;
+$fourth-color : #ccae62;
+
+*{
+    padding :0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+.btn-custom{
+    background-color: $main-color;
+    color:white;
+
+    &:hover{
+        background-color: $secondary-color;
+        color: white;
+    }
+}
+
+.text-custom{
+    color: $main-color;
+
+    &:hover{
+        color : $main-color;
+    }
+}
+
+.bg-custom{
+    background-color: $main-color;
+    color:white;
+}
+
+.swal-modal .swal-text {
+    text-align: center !important;
+}
+
+.form-group{
+    position: relative;
+  
+    .password-input{
+        padding-right:45px !important;
+    }
+
+    .password-view{
+        position: absolute;
+        opacity: 20%;
+        top: 50%;
+        right: 6%;
+        transform: translate(0, -50%);
+        transition: opacity 0.3s ease;
+
+        &:hover{
+            opacity: 40%;
+            cursor: pointer;
+        }
+    }
+}
+
+nav{
+    box-shadow: 0 4px 8px 0 rgba(#032541,0.2) ;
+    background-color: $main-color;
+    transition: all 0.3s ease;
+
+    .navbar-container{
+        max-width: 1440px !important;
+
+        a{
+            transition: color 0.2s ease;
+
+            &:hover{
+                color: $fourth-color !important;
+            }
+        }
+    }
+}
+
+.main-container{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px;
+}
+
+footer{
+    overflow: hidden;
+    background-color: $main-color;
+    color: white;
+
+    .footer-body{
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .title{
+            border: 2px solid white;
+            padding: 6px 30px;
+            width: fit-content;
+            transition: all 0.3s ease;
+
+            &:hover{
+                color: $fourth-color ;
+                border: 2px solid $fourth-color;
+            }
+        }
+
+        ul{
+            list-style-type: none;
+            margin-top: 15px;
+
+            li{
+                a{
+                    color: rgba($color: #ffffff, $alpha: 0.5) !important;;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                
+                    &:hover{
+                        color: rgba($color: $fourth-color, $alpha: 1) !important;
+                    }
+                }
+            }
+        }
+
+        .footer-items{
+            padding: 5px 0;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+                
+            &:hover{
+                color : $fourth-color;
+            }
+        }
+
+        .follow-us{
+            border: 2px solid white;
+            padding: 6px 40px;
+            width: fit-content;
+            font-size: 25px;
+            transition: all 0.3s ease;
+
+            &:hover{
+                border: 2px solid $fourth-color;
+            }
+        }
+
+        .sosmed-icon{
+            font-size: 20px;
+
+            a{
+                padding: 0 3px;
+                color: white;
+                transition: all 0.3s ease;
+
+                &:hover{
+                    color : $fourth-color;
+                }
+            }
+        }
+    }
+
+    .copy-right{
+        background-color: $third-color;
+        letter-spacing: 1px;
+        font-size: 7px;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width:576px){
+    .main-container{
+        padding: 50px 20px;
+    }
+}

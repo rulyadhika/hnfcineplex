@@ -1,0 +1,164 @@
+header .navbar-custom {
+  background-color: transparent !important;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
+}
+
+header .navbar-custom .navbar-brand, header .navbar-custom .sign-up-btn {
+  color: #032541;
+  font-weight: bold;
+}
+
+header .navbar-custom a {
+  color: black;
+}
+
+header .navbar-custom .navbar-toggle-icon i {
+  color: #032541 !important;
+}
+
+header #carouselExampleIndicators {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header #carouselExampleIndicators img {
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 45%;
+     object-position: 0px 45%;
+  background-color: whitesmoke;
+}
+
+header #carouselExampleIndicators .image-carousel-wrapper {
+  position: relative;
+}
+
+header #carouselExampleIndicators .image-carousel-wrapper .text-on-carousel {
+  position: absolute;
+  top: 55%;
+  left: 7%;
+  -webkit-transform: translate(-7%, -55%);
+          transform: translate(-7%, -55%);
+  max-width: 40%;
+  z-index: 20;
+  color: #032541;
+}
+
+header #carouselExampleIndicators .image-carousel-wrapper .button-on-carousel {
+  outline: none;
+  border: none;
+  background-color: #032541;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header #carouselExampleIndicators .image-carousel-wrapper .button-on-carousel:hover {
+  opacity: 0.8;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.main-container .film-card {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+}
+
+.main-container .film-card .card {
+  border: none !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px;
+}
+
+.main-container .film-card .card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.main-container .film-card:hover {
+  color: #043258;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.main-container .film-card .film-title {
+  padding: 20px 15px;
+}
+
+@media (max-width: 800px) {
+  header #carouselExampleIndicators .image-carousel-wrapper .text-on-carousel {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navbar-custom .navbar-collapse {
+    background-color: #F5F5F5;
+  }
+  header #carouselExampleIndicators img {
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: -110% 0;
+       object-position: -110% 0;
+  }
+  header #carouselExampleIndicators .image-carousel-wrapper .text-on-carousel {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: unset;
+  }
+  header #carouselExampleIndicators .image-carousel-wrapper .button-on-carousel {
+    margin-top: 5%;
+  }
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */
